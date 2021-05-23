@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/ccddcd"
+        app:contentInsetStart="0dp"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="85dp"
+                android:layout_height="48dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="341dp"
+                android:layout_marginRight="341dp"
+                android:background="@drawable/logo22"
+                android:fontFamily="@font/gmarketsansmedium"
+                android:textColor="@color/white"/>
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="7dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginBottom="9dp"
+                app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <Button
+        android:id="@+id/hospital1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30sp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="100sp"
+        android:layout_marginEnd="30sp"
+        android:layout_marginRight="30sp"
+        android:layout_marginBottom="30sp"
+        android:background="@drawable/selector_button"
+        android:fontFamily="@font/gmarketsansmedium"
+        android:gravity="center"
+        android:text="선별진료소, 백신접종병원"
+        android:textSize="20sp"
+        android:textColor="@drawable/selector_text"/>
+
+    <Button
+        android:id="@+id/self1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30sp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginEnd="30sp"
+        android:layout_marginRight="30sp"
+        android:layout_marginBottom="30sp"
+        android:background="@drawable/selector_button"
+        android:fontFamily="@font/gmarketsansmedium"
+        android:gravity="center"
+        android:text="코로나 자가진단"
+        android:textSize="20sp"
+        android:textColor="@drawable/selector_text"/>
+
+    <Button
+        android:id="@+id/msg1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30sp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginEnd="30sp"
+        android:layout_marginRight="30sp"
+        android:layout_marginBottom="30sp"
+        android:background="@drawable/selector_button"
+        android:fontFamily="@font/gmarketsansmedium"
+        android:gravity="center"
+        android:text="재난문자"
+        android:textSize="20sp"
+        android:textColor="@drawable/selector_text"/>
+
+    <Button
+        android:id="@+id/prevent1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30sp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginEnd="30sp"
+        android:layout_marginRight="30sp"
+        android:layout_marginBottom="30sp"
+        android:background="@drawable/selector_button"
+        android:fontFamily="@font/gmarketsansmedium"
+        android:gravity="center"
+        android:text="증상 및 예방법"
+        android:textSize="20sp"
+        android:textColor="@drawable/selector_text"/>
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30sp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginEnd="30sp"
+        android:layout_marginRight="30sp"
+        android:layout_marginBottom="30sp"
+        android:background="@drawable/selector_button"
+        android:fontFamily="@font/gmarketsansmedium"
+        android:gravity="center"
+        android:text="공지사항"
+        android:textSize="20sp"
+        android:textColor="@drawable/selector_text"/>
+
+</LinearLayout>
